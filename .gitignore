@@ -1,0 +1,21 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+build/
+target/
+
+# Java
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
