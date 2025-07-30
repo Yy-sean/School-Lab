@@ -1,21 +1,44 @@
 # IntelliJ IDEA
 .idea/
 *.iml
+*.iws
 out/
 build/
 target/
-
-# Java
-*.class
 *.jar
 *.war
 *.zip
 *.tar.gz
+*.ear
+
+# Java
+*.class
+*.hprof
+*.log
+*.lck
 
 # OS Specific
 .DS_Store
 Thumbs.db
 desktop.ini
+$RECYCLE.BIN/
 
-# Logs
-*.log
+# Eclipse (if used)
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+
+# Maven
+mvnw
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Git
+.gitignore
+!.gitignore
